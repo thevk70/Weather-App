@@ -1,0 +1,133 @@
+/* body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+	display: inline-block;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left:5px;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 20px;
+  }
+  .weather-img{
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px lightblue;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+
+
+  nav {
+    background-color: #3d3d3d;
+    color: #fff;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: purple;
+  }
+  
+  #hero {
+    background-color: #eee;
+    color: #fff;
+    font-size: x-large;
+    padding: 70px;
+    text-align:center;
+    background-image: url("https://img.freepik.com/free-vector/city-park-with-bench-rainy-autumn-bad-weather_107791-9629.jpg?w=1380&t=st=1681060208~exp=1681060808~hmac=3cd69674358cae5ab91447716db1ffd6ac6b15c5adfebc863f2ef1b1ef8f48b5");
+    image-rendering: crisp-edges;
+  }
+  .btn{
+    padding: 20px 30px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: purple;
+    color: #fff;
+    border: none;
+  }
+
+ #features{
+    text-align: center;
+    background-color: coral;
+    padding: 20px;
+ }
+ .feature-img{
+   border-radius: 20px;
+ }
+#testimonials{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 30px;
+}
+blockquote{
+    display: inline-block;
+    background-color: burlywood;
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+}
